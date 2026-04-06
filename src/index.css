@@ -1,0 +1,16 @@
+html, body {
+    font-family: 'OpenSans', serif;
+    background-color: #dfe4ea;
+    color:#4b6584;
+    min-width: 900px;
+}
+
+body > a {
+    color:#4b6584;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url(../fonts/OpenSans-Regular.ttf) format('truetype');
+}
