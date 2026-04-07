@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ProductContainer = styled.main`
+export const CardContainer = styled.main`
     width: 800px;
     margin: 140px auto 0 auto;
     display:grid;

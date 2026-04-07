@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {ProductContainer} from "./ProductContainer.jsx";
+import {CardContainer} from "./CardContainer.jsx";
 
 export const ProductItem = styled.div`
     background-color: white;

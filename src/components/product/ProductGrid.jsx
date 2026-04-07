@@ -2,7 +2,7 @@ import ProductItem from './ProductItem';
 import {useDispatch, useSelector} from "react-redux";
 import {useEffect} from "react";
 import {getAllProducts} from "../../store/product-slice.js";
-import {ProductContainer} from "../ui-elements/ProductContainer.jsx";
+import {CardContainer} from "../ui-elements/CardContainer.jsx";
 import {useNavigate} from "react-router-dom";
 
 export default function ProductGrid() {
@@ -44,7 +44,7 @@ export default function ProductGrid() {
 
     return (
         <>
-            <ProductContainer>{iterateProducts(products)}</ProductContainer>
+            <CardContainer>{iterateProducts(products)}</CardContainer>
         </>
     )
 }
